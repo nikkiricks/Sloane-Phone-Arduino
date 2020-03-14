@@ -83,7 +83,7 @@ void setup() {
 
 void happyText() {
   // send the message when HAPPY is presses
-  sms.beginSMS("+61488611347");
+  sms.beginSMS("+ENTER PHONE NUMBER AND COUNTRY CODE");
   sms.print(u8"\U0001f60e");
   sms.print("I'm having a great time mom! :)");
   sms.endSMS();
@@ -91,7 +91,7 @@ void happyText() {
 
 void sadText() {
   // send the message when SAD is presses
-  sms.beginSMS("+61488611347");
+  sms.beginSMS("+ENTER PHONE NUMBER AND COUNTRY CODE");
   sms.print("Please come home :(");
   sms.endSMS();
 }
