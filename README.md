@@ -4,11 +4,11 @@
 
 See the [Sloane Phone Node Repo](https://github.com/nikkiricks/Sloane-Phone-Node) for background and inspiration for the project.
 
-This project used the Arduino MKR GSM 1400 board. It's neccessary to have all of the parts listed for the board and sketch to work.
+This project used the [Arduino MKR GSM 1400 board](https://store.arduino.cc/usa/mkr-gsm-1400). It's neccessary to have all of the parts listed for the board and sketch to work.
 
 ## Technology Used
 
-You'll need the [Arduino IDE](https://www.arduino.cc/en/main/software) for this project.
+This cannot be run from your terminal, you'll need the [Arduino IDE](https://www.arduino.cc/en/main/software) for this project.
 
 ## Parts
 
@@ -20,13 +20,14 @@ You'll need the [Arduino IDE](https://www.arduino.cc/en/main/software) for this 
 | Turnigy 2000mAh Battery                                   | [Hobby King](https://hobbyking.com/en_us/turnigy-2000mah-1s-1c-lipoly-w-2-pin-jst-ph-connector.html?___store=en_us)                                                                                                                                                                                                                                                                                                                                                                 |  \$7.60 |
 | Aldi SIM Card                                             | [Aldi](https://www.aldimobile.com.au/checkout)                                                                                                                                                                                                                                                                                                                                                                                                                                      |  \$5.00 |
 
-### Software
+### Software Sketch Referenced
 
 - Tom Igoe Sketch for MKR-GSM
 - Debounce sketch
 
 ## Getting started
 
+- Download the [Arduino IDE](https://www.arduino.cc/en/main/software)
 - Copy and paste the mkr-gsm.c code into the Arduino IDE
 - Create another tab and label it arduino_secrets.h. Enter in the pin for the SIM card in quotes example:
 
@@ -38,5 +39,5 @@ You'll need the [Arduino IDE](https://www.arduino.cc/en/main/software) for this 
 - Enter in the phone number that you want to text with the country code. Note that some countries have a 0 at the front of the number and the sketch uses it without that 0.
 - Verify your code by clicking the check mark
 - Upload your code by clicking the right arrow
-- Open your serial monitor by clicking the magnifying gladd to check if your sketch uploaded corrently and read any error
+- Open your serial monitor by clicking the magnifying glass to check if your sketch uploaded correctly and read any error messages
 - Make the button yours and swap out the mesages you would like to send!
