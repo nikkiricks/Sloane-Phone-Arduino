@@ -1,6 +1,6 @@
 # Sloane-Phone-Arduino
 
-![](images/sloane-phone.JPG)
+![](Images/sloane-phone.JPG)
 
 See the [Sloane Phone Node Repo](https://github.com/nikkiricks/Sloane-Phone-Node) for background and inspiration for the project.
 
